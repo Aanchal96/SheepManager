@@ -5,8 +5,6 @@ public class SheepManager {
     }
 
     static void run(){
-        ListOfSheep sheepList = new ListOfSheep();
-
         TestHarness testHarness = new TestHarness();
         testHarness.GenerateSheep();
     }
