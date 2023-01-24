@@ -1,11 +1,12 @@
 public class SheepManager {
 
-    public static void main(String args[]){
+    public static void main(String[] args) {
         run();
+        System.out.println("finished");
     }
 
     static void run(){
-        TestHarness testHarness = new TestHarness();
-        testHarness.GenerateSheep();
+        ListOfSheep SheepList = new ListOfSheep();
+        TestHarness.GenerateSheep();
     }
 }
